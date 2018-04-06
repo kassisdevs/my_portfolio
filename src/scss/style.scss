@@ -1,4 +1,4 @@
-$bg-color:red;
-body {
-  background-color:$bg-color;
-}
+@import "base";
+@import "typography";
+@import "header";
+@import "footer";
