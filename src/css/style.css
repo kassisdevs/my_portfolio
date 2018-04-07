@@ -15,6 +15,19 @@ body {
   font-weight: 300;
   line-height: 1.6; }
 
+.overlay-section {
+  min-height: 80rem;
+  background: rgba(0, 0, 0, 0.4); }
+
+.heading-1 {
+  font-size: 6rem;
+  color: #fff; }
+
+.heading-4 {
+  font-size: 3rem;
+  color: #ec145b;
+  font-weight: 700; }
+
 nav .navbar-brand {
   font-size: 2.5rem; }
   nav .navbar-brand span {
@@ -30,3 +43,9 @@ header {
   background-attachment: fixed;
   background-size: cover;
   min-height: 80rem; }
+  header .col {
+    transform: translateY(50%); }
+  header .header-p {
+    font-size: 2.8rem;
+    color: #fff;
+    font-weight: 700; }
