@@ -99,3 +99,9 @@ header {
   font-size: 1.4rem;
   font-weight: 300;
   color: #999; }
+
+.skills {
+  background-color: #f8f8f8; }
+  .skills-icon {
+    font-size: 6rem;
+    color: #ec145b; }
