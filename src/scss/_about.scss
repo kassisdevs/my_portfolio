@@ -1,0 +1,39 @@
+.about {
+  &-download:link, &-download:visited {
+    margin-right: 1rem;
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+      color: $color-secondary;
+      border: 1px solid $color-secondary;
+  }
+  &-download:hover, &-download:active {
+    color: #fff;
+    background-color: #000;
+    border: none;
+  }
+  &-hireme:link, &-hireme:visited {
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: $color-secondary;
+
+  }
+  &-hireme:hover, &-hireme:active {
+    color: #fff;
+    background-color: #000;
+    border: none;
+  }
+  &-info {
+
+    font-weight: 700;
+    color: $color-primary;
+    font-size: 1.4rem;
+  }
+  &-des {
+    margin-right: 16rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: $color-grey-light;
+  }
+}

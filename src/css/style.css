@@ -23,10 +23,25 @@ body {
   font-size: 6rem;
   color: #fff; }
 
+.heading-3 {
+  font-size: 3.5rem;
+  color: #2C3E50;
+  font-weight: 300; }
+
 .heading-4 {
   font-size: 3rem;
   color: #ec145b;
   font-weight: 700; }
+
+.heading-6 {
+  font-size: 1.5rem;
+  color: #999;
+  font-weight: 300; }
+
+.paragraph {
+  line-height: 1.7;
+  font-size: 1.8rem;
+  font-weight: 400; }
 
 nav .navbar-brand {
   font-size: 2.5rem; }
@@ -42,10 +57,45 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 80rem; }
+  min-height: 30rem; }
   header .col {
-    transform: translateY(50%); }
+    transform: translateY(100%); }
   header .header-p {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: #fff;
     font-weight: 700; }
+
+.about-download:link, .about-download:visited {
+  margin-right: 1rem;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  color: #ec145b;
+  border: 1px solid #ec145b; }
+
+.about-download:hover, .about-download:active {
+  color: #fff;
+  background-color: #000;
+  border: none; }
+
+.about-hireme:link, .about-hireme:visited {
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: #ec145b; }
+
+.about-hireme:hover, .about-hireme:active {
+  color: #fff;
+  background-color: #000;
+  border: none; }
+
+.about-info {
+  font-weight: 700;
+  color: #2C3E50;
+  font-size: 1.4rem; }
+
+.about-des {
+  margin-right: 16rem;
+  display: inline-block;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #999; }
