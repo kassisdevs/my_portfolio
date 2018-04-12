@@ -11,4 +11,69 @@
     z-index: 1;
 
   }
+  .portfolio-card {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    width: 30rem;
+    height: 40rem;
+    perspective: 60rem;
+    transform-style: preserve-3d;
+    transition: 1s;
+  }
+
+  .portfolio-card-front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 1s;
+  }
+  .portfolio-card:hover .portfolio-card-front {
+
+    transform: rotateX(-180deg);
+
+  }
+  .portfolio-card:hover .portfolio-card-back {
+
+    transform: rotateX(0deg);
+
+  }
+  .portfolio-card-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 1s;
+  }
+  .portfolio-card-detail {
+    margin-top: 15rem;
+  }
+  .card-header {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $color-secondary;
+  }
+  .card-tech {
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  .card-icon {
+    font-size: 2.4rem;
+    color: $color-secondary;
+    margin: 1rem;
+  }
+  .card-icon:hover {
+    color: #fff;
+  }
 }

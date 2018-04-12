@@ -5,6 +5,11 @@
   font-size: 6rem;
   color: #fff;
 }
+.heading-2 {
+  font-size: 1.8rem;
+  color: $color-primary;
+  font-weight: 700;
+}
 .heading-3 {
   font-size: 3.5rem;
   color: $color-primary;
@@ -29,5 +34,5 @@
 .paragraph {
   line-height: 1.7;
   font-size: 1.8rem;
-  font-weight: 400;
+  font-weight: 300;
 }

@@ -23,6 +23,11 @@ body {
   font-size: 6rem;
   color: #fff; }
 
+.heading-2 {
+  font-size: 1.8rem;
+  color: #2C3E50;
+  font-weight: 700; }
+
 .heading-3 {
   font-size: 3.5rem;
   color: #2C3E50;
@@ -46,7 +51,7 @@ body {
 .paragraph {
   line-height: 1.7;
   font-size: 1.8rem;
-  font-weight: 400; }
+  font-weight: 300; }
 
 nav .navbar-brand {
   font-size: 2.5rem; }
@@ -108,8 +113,9 @@ header {
 .skills {
   background-color: #f8f8f8; }
   .skills-icon {
-    font-size: 6rem;
-    color: #ec145b; }
+    font-size: 4rem;
+    color: #ec145b;
+    margin-right: 2rem; }
 
 #portfolio .heading-5::after {
   content: "";
@@ -120,3 +126,59 @@ header {
   top: 7rem;
   left: calc(45% - 50px);
   z-index: 1; }
+
+#portfolio .portfolio-card {
+  width: 30rem;
+  height: 40rem;
+  perspective: 60rem;
+  transform-style: preserve-3d;
+  transition: 1s; }
+
+#portfolio .portfolio-card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 1s; }
+
+#portfolio .portfolio-card:hover .portfolio-card-front {
+  transform: rotateX(-180deg); }
+
+#portfolio .portfolio-card:hover .portfolio-card-back {
+  transform: rotateX(0deg); }
+
+#portfolio .portfolio-card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 1s; }
+
+#portfolio .portfolio-card-detail {
+  margin-top: 15rem; }
+
+#portfolio .card-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #ec145b; }
+
+#portfolio .card-tech {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #fff; }
+
+#portfolio .card-icon {
+  font-size: 2.4rem;
+  color: #ec145b;
+  margin: 1rem; }
+
+#portfolio .card-icon:hover {
+  color: #fff; }
