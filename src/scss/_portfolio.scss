@@ -1,0 +1,14 @@
+#portfolio {
+  .heading-5::after {
+
+    content: "";
+    height: 1px;
+    width: 20rem;
+    background: $color-secondary;
+    position: absolute;
+    top: 7rem;
+    left: calc(45% - 50px);
+    z-index: 1;
+
+  }
+}
