@@ -196,11 +196,23 @@ header {
 #contact .btn-submit {
   background: #ec145b;
   color: #fff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-transform: uppercase;
+  border-radius: 5px;
   transition: 1s; }
 
 #contact .btn-submit:hover {
   background: #fff;
   color: #ec145b;
-  border: 1px solid #ec145b; }
+  border: 1px solid #ec145b;
+  border-radius: 5px; }
+
+#footer {
+  background-color: #f8f8f8; }
+  #footer .footer-icon a i {
+    font-size: 2rem;
+    color: #2C3E50; }
+  #footer .footer-icon a i:hover {
+    color: #ec145b; }
+  #footer .footer-icon a {
+    text-decoration: none; }

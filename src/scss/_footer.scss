@@ -1,0 +1,13 @@
+#footer {
+  background-color: $bg-grey;
+  .footer-icon a i {
+    font-size: 2rem;
+    color: $color-primary;
+  }
+  .footer-icon a i:hover {
+    color: $color-secondary;
+  }
+  .footer-icon a {
+    text-decoration: none;
+  }
+}
