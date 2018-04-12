@@ -1,0 +1,26 @@
+#contact {
+  .heading-5::after {
+
+    content: "";
+    height: 1px;
+    width: 20rem;
+    background: $color-secondary;
+    position: absolute;
+    top: 7rem;
+    left: calc(45% - 50px);
+    z-index: 1;
+
+  }
+  .btn-submit {
+   background: $color-secondary;
+   color: #fff;
+   font-size: 2rem;
+   text-transform: uppercase;
+   transition: 1s;
+  }
+  .btn-submit:hover {
+    background: #fff;
+   color: $color-secondary;
+   border: 1px solid $color-secondary;
+  }
+}

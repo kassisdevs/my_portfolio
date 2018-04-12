@@ -182,3 +182,25 @@ header {
 
 #portfolio .card-icon:hover {
   color: #fff; }
+
+#contact .heading-5::after {
+  content: "";
+  height: 1px;
+  width: 20rem;
+  background: #ec145b;
+  position: absolute;
+  top: 7rem;
+  left: calc(45% - 50px);
+  z-index: 1; }
+
+#contact .btn-submit {
+  background: #ec145b;
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  transition: 1s; }
+
+#contact .btn-submit:hover {
+  background: #fff;
+  color: #ec145b;
+  border: 1px solid #ec145b; }
