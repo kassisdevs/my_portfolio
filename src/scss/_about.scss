@@ -24,12 +24,13 @@
     border: none;
   }
   &-info {
-
+    display: inline-block;
     font-weight: 700;
     color: $color-primary;
     font-size: 1.4rem;
   }
   &-des {
+    display: inline-block;
     margin-right: 16rem;
     display: inline-block;
     font-size: 1.4rem;

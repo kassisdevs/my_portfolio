@@ -66,10 +66,9 @@ header {
   background-image: url(../img/bg-image.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  min-height: 30rem; }
+  background-size: cover; }
   header .col {
-    transform: translateY(100%); }
+    transform: translateY(150%); }
   header .header-p {
     font-size: 2.5rem;
     color: #fff;
@@ -99,11 +98,13 @@ header {
   border: none; }
 
 .about-info {
+  display: inline-block;
   font-weight: 700;
   color: #2C3E50;
   font-size: 1.4rem; }
 
 .about-des {
+  display: inline-block;
   margin-right: 16rem;
   display: inline-block;
   font-size: 1.4rem;
@@ -211,7 +212,8 @@ header {
   background-color: #f8f8f8; }
   #footer .footer-icon a i {
     font-size: 2rem;
-    color: #2C3E50; }
+    color: #2C3E50;
+    transition: 1s; }
   #footer .footer-icon a i:hover {
     color: #ec145b; }
   #footer .footer-icon a {
